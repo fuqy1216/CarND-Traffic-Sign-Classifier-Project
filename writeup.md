@@ -29,7 +29,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a plot of a sample traffic sign in the dataset
 
-![Sample traffic sign from the dataset][./examples/traffic_sign.png]
+[Sample traffic sign from the dataset][./examples/traffic_sign.png]
 
 ### Design and Test a Model Architecture
 
