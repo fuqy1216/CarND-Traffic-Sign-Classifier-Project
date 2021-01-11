@@ -29,7 +29,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a plot of a sample traffic sign in the dataset
 
-[Sample traffic sign from the dataset][./examples/traffic_sign.png]
+<img src="examples/traffic_sign.png" width="480" alt="Sample traffic sign from the dataset" />
 
 ### Design and Test a Model Architecture
 
@@ -37,7 +37,7 @@ Here is an exploratory visualization of the data set. It is a plot of a sample t
 
 As a first step, I converted the image to grayscale to filter out the color effect (as light condition and materials may affect this).
 
-![Sample grayscale traffic sign from the dataset][./examples/gray_traffic_sign.png]
+<img src="examples/gray_traffic_sign.png" width="480" alt="Sample grayscale traffic sign from the dataset" />
 
 As a final step, I normalized the image data to avoid slow and unstable learning process since the weights were initialized with identical normalization distribution.
 
@@ -84,8 +84,11 @@ The LeNet architecture was chosen. It was using two convonlution layers to ident
 
 Here are five German traffic signs that I found on the web:
 
-![Sign 1][./examples/new_sign_1.png] ![Sign 2][./examples/new_sign_2.png] ![Sign 3][./examples/new_sign_3.png] 
-![Sign 4][./examples/new_sign_4.png] ![Sign 5][./examples/new_sign_5.png]
+<img src="examples/new_sign_1.png" width="480" alt="Sign 1" />
+<img src="examples/new_sign_2.png" width="480" alt="Sign 2" />
+<img src="examples/new_sign_3.png" width="480" alt="Sign 3" />
+<img src="examples/new_sign_4.png" width="480" alt="Sign 4" />
+<img src="examples/new_sign_5.png" width="480" alt="Sign 5" />
 
 The first image might be difficult to classify because the contrast was very low. The third image might be difficult to classify as the resolution was very low.
 
